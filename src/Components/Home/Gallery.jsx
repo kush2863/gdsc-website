@@ -1,7 +1,6 @@
 import React from 'react'
 import "./gallery.css"
 
-const imageList =[""]
 const Gallery = () => {
   return (
     <section>
