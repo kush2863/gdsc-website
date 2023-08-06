@@ -54,7 +54,7 @@
     top: 20%;
     left: 0%;
     background-color: #007bff; 
-    animation: fleak 1.2s ease-in-out alternate-reverse infinite;
+    /* animation: fleak 1.2s ease-in-out alternate-reverse infinite; */
 
 }
 
@@ -82,7 +82,7 @@
     bottom: -25%;
     right: -35%;
     background-color: #FBBC04; 
-    animation: fleak 1.5s ease-in-out alternate-reverse infinite;
+    /* animation: fleak 1.5s ease-in-out alternate-reverse infinite; */
 
 }
 
