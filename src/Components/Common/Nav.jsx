@@ -2,6 +2,14 @@ import React from 'react'
 import "./nav.css"
 import { NavLink } from 'react-router-dom'
 const Nav = () => {
+  const handleMenu =()=>{
+  const x = document.getElementById("TopNav");
+    if (x.style.transform === "translate(-100%, 0%)") {
+      x.style.transform = "translate(0%, 0%)";
+    } else {
+      x.style.transform = "translate(-100%, 0%)";
+    }
+  }
   return (
     <nav>
     <div className="Nav_Container center-div">
@@ -18,7 +26,7 @@ const Nav = () => {
       <NavLink
         className="icon"
         id="Hambuger"
-        onClick="myFunction()"
+        onClick={handleMenu}
       >
         <i className="fa fa-bars"></i>
       </NavLink>
