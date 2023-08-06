@@ -19,4 +19,9 @@
     background-size: cover;
     background-position: 0%;
 }
+@media screen and (max-width :800px) {
+    .Session_btn{
+       padding: 0.5rem 1rem;
+    }
+}
 
