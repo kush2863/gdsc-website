@@ -1,0 +1,22 @@
+
+
+.Events_Warpper {
+    border-top: 1px solid #f1f1f1;
+    background-color: white;
+    padding: 3rem 0px;
+}
+
+.Session_btn{
+    display: block;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.event-bg{
+    background: url("../Images/bg/team.png") 50%/ cover no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0%;
+}
+
