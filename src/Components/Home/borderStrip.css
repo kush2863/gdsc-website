@@ -1,0 +1,26 @@
+.Border_Strip{
+    width: 10px;
+    height: 100%;
+}
+.Border_Strip div{
+width: 10px;
+background-color : red;
+border-radius: 5px;
+margin-top: 5px;
+}
+
+.Border_Strip div:nth-child(1){
+    height: 20%;
+background-color : #34A853;
+
+}
+.Border_Strip div:nth-child(2){
+    height: 35%;
+    background-color: #F9BC15;
+}
+.Border_Strip div:nth-child(3){
+    height: 45%;
+    background-color : #4285F4;
+
+}
+

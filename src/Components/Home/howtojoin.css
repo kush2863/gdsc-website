@@ -1,0 +1,50 @@
+.How_To_Join{
+    margin-top: 6.8rem;
+    margin-bottom: 8rem;
+}
+.How_To_Join_Upper{
+    text-align: center;
+}
+.How_To_Join_Upper h2{
+    font-size: 35px;
+    color: #141718;
+    margin-bottom: 2rem;
+}
+.How_To_Join_Upper p{
+    width: min(45rem,90%);
+    font-size: 16px;
+    color: #878787;
+    margin-bottom: 3.125rem;
+}
+
+.How_To_Join_Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.How_To_Join_Card h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.How_To_Join_Card span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    background-color : #4285F4;
+    color: #f1f1f1;
+}
+.How_To_Join_Card p {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .How_To_Join_Grid{
+        grid-template-columns: 1fr ;}
+}

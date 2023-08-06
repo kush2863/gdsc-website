@@ -1,0 +1,64 @@
+nav {
+    width: 100%;
+    max-height: 72px;
+    border-bottom:1px solid rgba(0,0,0,.15) ;
+    top:0;
+    background-color: #fff;
+    z-index: 999;
+    position: sticky;
+}
+img[alt="gdsc_logo"]{
+    height: 48px;
+    display: none;
+}
+.Nav_Container{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nav_Links a {
+    display: inline-block; 
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    height: 100%;
+    padding: 1rem 2px;
+    margin: 0px 1rem;
+    border-bottom: 3px solid transparent;
+    color: #5f6368;
+}
+.Nav_Links a:hover{
+    border-bottom: 3px solid #007bff;
+}
+.Nav_Links .active{
+    border-bottom: 3px solid #007bff;
+}
+
+#Hambuger{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #Hambuger{
+        display: inline-block;
+        z-index: 99;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        transform: translate(-50%,-50%);
+    }
+    .Nav_Links{
+        width:100%;
+        padding-top: 10%;
+        background-color: white;
+        transform: translate(-100%, 0%);
+        transition: all ease-in-out 0.5s ;
+    }
+    .Nav_Links a{
+        display: block;
+    }
+    .Nav_Container{
+        justify-content: center;
+    }
+}
