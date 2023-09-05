@@ -1,51 +1,7 @@
 import React from 'react'
 import image1 from "../Images/events/session1.jpg"
 import "./events.css"
-const eventList = [{
-  img:image1,
-  date : "20 Dec 2023",
-  text :"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis",
-  link :"/"
-},
-{
-  img:image1,
-  date : "20 Dec 2023",
-  text :"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis",
-  link :"/"
-},
-{
-  img:image1,
-  date : "20 Dec 2023",
-  text :"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis",
-  link :"/"
-},
-{
-  img:image1,
-  date : "20 Dec 2023",
-  text :"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis",
-  link :"/"
-},
-{
-  img:image1,
-  date : "20 Dec 2023",
-  text :"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis",
-  link :"/"
-},
-{
-  img:image1,
-  date : "20 Dec 2023",
-  text :"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis",
-  link :"/"
-},
-{
-  img:image1,
-  date : "20 Dec 2023",
-  text :"  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis",
-  link :"/"
-},
-
-
-]
+import eventList from './eventList'
 const Events = () => {
   return (
     <section class="Events event-bg">
@@ -64,11 +20,13 @@ const Events = () => {
                 <div class="Session_Card" key={index}>
                 <img src={image1} alt="session1" />
                 <div>
+                  <p class="Title">{item.title}</p>
                   <p class="Date-Time">{item.date}</p>
+                  <p class="Date-Time">{item.time}</p>
                   <p class="Card-text">
                     {item.text}
                   </p>
-                  <button class="btn-1 Session_btn">Register Now</button>
+                  <a href={item.link}><button class="btn-1 Session_btn">Register Now</button></a>
                 </div>
               </div> 
               )

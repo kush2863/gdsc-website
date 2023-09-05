@@ -5,11 +5,18 @@
     background-color: white;
     padding: 3rem 0px;
 }
-
+.title{
+    font-weight: 900;
+    font-style: oblique;
+}
 .Session_btn{
     display: block;
     margin: 1rem auto;
     width: 80%;
+   
+}
+a{
+    text-decoration: none;
 }
 
 .event-bg{
