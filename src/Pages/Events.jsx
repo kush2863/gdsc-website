@@ -19,15 +19,18 @@ const Events = () => {
               return(
                 <div class="Session_Card" key={index}>
                 <img src={image1} alt="session1" />
-                <div>
+                <div className='card-front'> 
                   <p class="Title">{item.title}</p>
                   <p class="Date-Time">{item.date}</p>
                   <p class="Date-Time">{item.time}</p>
+                  </div>
+                  <div className='card-back'>
                   <p class="Card-text">
                     {item.text}
                   </p>
-                  <a href={item.link}><button class="btn-1 Session_btn">Register Now</button></a>
-                </div>
+                  </div>
+                  <button class="btn-1 Session_btn"><a href='{item.link}'></a>Register Now</button>
+                
               </div> 
               )
             })
