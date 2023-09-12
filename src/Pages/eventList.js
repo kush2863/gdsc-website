@@ -34,21 +34,6 @@ const eventList = [{
     link :"https://gdsc.community.dev/events/details/developer-student-clubs-pimpri-chinchwad-college-of-engineering-and-research-pune-presents-gdsc-pccoer-20-info-session/"
   },
   
-  {
-    img:image1,
-    title:"Google Cloud Campaign",
-    date : "14 Dec 2022",
-    time:"7:00 PM IST",
-    text :"GDSC PCCOE&R  is back again with the much awaited 30 Days of Google Cloud program(Cloud Engineer Learning). A great opportunity for all enthusiastic peers out there to learn the Fundamental tools and capabilities of Google Cloud, share their experiences, and solve hands-on problems together.  Certification by Google will be bestowed on successful completion of the 30 days of Google Cloud Program. Join now as Google swags and goodies await you all!! Note: Program ends on 15th DECEMBER 2022",
-    link :"https://gdsc.community.dev/events/details/developer-student-clubs-pimpri-chinchwad-college-of-engineering-and-research-pune-presents-google-cloud-campaign/"
-  },
-  {
-    img:image1,
-    title:"Cloud Info Session",
-    date : "16 Nov 2022",
-    time:"7:00 PM IST",
-    text :"Hello folks , We are all set to kickstart Google Cloud Practitioner Program. ☁️✨ If you are a registered participant, you probably might have gotten  an email regarding the next steps you have to take.😌  We are here with an Intro Session for you all, where you will be guided step by step and you can ask any doubts you have before moving forward. Join us on 16th November 2022 at sharp 7 PM IST ",
-    link :"https://gdsc.community.dev/events/details/developer-student-clubs-pimpri-chinchwad-college-of-engineering-and-research-pune-presents-cloud-info-session/"
-  },]
+]
 
   export default eventList;

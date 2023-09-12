@@ -1,7 +1,7 @@
 import React from 'react'
 import image1 from "../Images/events/session1.jpg"
 import "./events.css"
-import eventList from './eventList'
+import eventList from "./eventList"
 const Events = () => {
   return (
     <section class="Events event-bg">
@@ -17,6 +17,7 @@ const Events = () => {
           {
             eventList.map((item,index)=>{
               return(
+                
                 <div class="Session_Card" key={index}>
                 <img src={image1} alt="session1" />
                 <div className='card-front'> 
@@ -28,10 +29,11 @@ const Events = () => {
                   <p class="Card-text">
                     {item.text}
                   </p>
-                  </div>
+                 
                   <button class="btn-1 Session_btn"><a href='{item.link}'></a>Register Now</button>
-                
+                  </div>
               </div> 
+             
               )
             })
           }
@@ -39,8 +41,10 @@ const Events = () => {
         </div>
       </div>
       </div>
+      
   </section>
   )
 }
+
 
 export default Events
