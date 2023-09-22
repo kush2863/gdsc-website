@@ -12,31 +12,30 @@ const CoreTeamList = [
     color: "#ea4335",
   },
 
-  {
-    img: "https://avatars.githubusercontent.com/u/58720128?v=4",
-    name: "Sneha Pujari",
-    des: "Web Developer",
-    linkedin: "/",
-    github: "/",
-    color: "#34A853",
-  },
-  {
-    img: "https://avatars.githubusercontent.com/u/58720128?v=4",
-    name: "Sneha Pujari",
-    des: "Web Developer",
-    linkedin: "/",
-    github: "/",
-    color: "#F9BC15",
-  },
-  {
-    img: "https://avatars.githubusercontent.com/u/58720128?v=4",
-    name: "Sneha Pujari",
-    des: "Web Developer",
-    linkedin: "/",
-    github: "/",
-    color: "#4285F4",
-  },
-];
+{
+  img:"https://avatars.githubusercontent.com/u/58720128?v=4",
+  name:"Aditya Gaikwad",
+  des :"Web Developer",
+  linkedin :"/",
+  github:"/",
+  color:"#34A853"
+},{
+  img:"https://avatars.githubusercontent.com/u/58720128?v=4",
+  name:"Sneha Pujari",
+  des :"Web Developer",
+  linkedin :"/",
+  github:"/",
+  color:"#F9BC15"
+},{
+  img:"https://avatars.githubusercontent.com/u/58720128?v=4",
+  name:"Sneha Pujari",
+  des :"Web Developer",
+  linkedin :"/",
+  github:"/",
+  color:"#4285F4"
+
+}]
+
 const Team = () => {
   return (
     <div>
