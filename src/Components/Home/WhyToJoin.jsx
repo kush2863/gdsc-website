@@ -9,18 +9,9 @@ const WhyToJoin = () => {
         Google Developer Student's Club ?
       </div>
       <div>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ea
-          provident aperiam laboriosam sunt consequatur et molestiae tempora,
-          nulla esse, laborum quidem iste minima placeat cupiditate culpa.
-          Eligendi, adipisci nihil.
-        </p>
         <br />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ea
-          provident aperiam laboriosam sunt consequatur et molestiae tempora,
-          nulla esse, laborum quidem iste minima placeat cupiditate culpa.
-          Eligendi, adipisci nihil.
+        <p >
+        Joining a Google Developer Student Club (DSC) is your passport to a dynamic tech ecosystem. It's where you dive into cutting-edge Google technologies, gain hands-on experience, forge invaluable connections, and get mentorship from experts.
         </p>
       </div>
     </div>
