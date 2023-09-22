@@ -28,7 +28,7 @@ const CoreTeamList = [
   color:"#F9BC15"
 },{
   img:"https://avatars.githubusercontent.com/u/58720128?v=4",
-  name:"Sneha Pujari",
+  name:"Kush Agrawal",
   des :"Web Developer",
   linkedin :"/",
   github:"/",
