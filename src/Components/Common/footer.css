@@ -6,3 +6,7 @@
     border-top: solid #333 2px ;
     padding: 3rem;
 }
+.icon-link {
+  color: inherit;
+  text-align: inherit;
+}
