@@ -30,7 +30,7 @@ const Events = () => {
                     {item.text}
                   </p>
                  
-                  <button class="btn-1 Session_btn"><a href='{item.link}'></a>Register Now</button>
+                  <button class="btn-1 Session_btn"><a href={item.link}></a>Register Now</button>
                   </div>
               </div> 
              
