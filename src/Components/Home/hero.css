@@ -49,3 +49,7 @@ main{
         padding: 0px 0.5rem;
     }
 }
+
+.desc{
+    max-width: 900px;
+}

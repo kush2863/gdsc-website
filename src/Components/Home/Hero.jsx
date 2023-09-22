@@ -18,9 +18,8 @@ const Hero = () => {
         <h2>
           Talent wins games, but teamwork and intelligence win championships.
         </h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-          delectus, molestiae distinctio quam aut minima dignissimos nequeunt.
+        <p className='desc'>
+          GDSCxPCCOER offer workshops, hackathons, and mentorship opportunities, empowering students to gain practical coding skills and solve problems through technology. It's a hub for aspiring developers to grow their skills, connect with peers, and embark on a journey of innovation.
         </p>
         <button className="btn-1">Join Us</button>
       </div>
