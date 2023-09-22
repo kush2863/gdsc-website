@@ -13,7 +13,7 @@ const CoreTeamList = [{
 
 {
   img:"https://avatars.githubusercontent.com/u/58720128?v=4",
-  name:"Sneha Pujari",
+  name:"Aditya Gaikwad",
   des :"Web Developer",
   linkedin :"/",
   github:"/",
