@@ -2,6 +2,7 @@ import React from 'react'
 import image1 from "../Images/events/session1.jpg"
 import "./events.css"
 import eventList from "./eventList"
+import image2 from "../Images/events/Flutter forward.jpeg"
 const Events = () => {
   return (
     <section class="Events event-bg">
@@ -17,15 +18,17 @@ const Events = () => {
           {
             eventList.map((item,index)=>{
               return(
-                
+             
+
                 <div class="Session_Card" key={index}>
-                <img src={image1} alt="session1" />
-                <div className='card-front'> 
+                <div className='front'> 
+                <img src={item.img} alt="session1" />
+                
                   <p class="Title">{item.title}</p>
                   <p class="Date-Time">{item.date}</p>
                   <p class="Date-Time">{item.time}</p>
                   </div>
-                  <div className='card-back'>
+                  <div className='back'>
                   <p class="Card-text">
                     {item.text}
                   </p>
@@ -34,6 +37,7 @@ const Events = () => {
                   </div>
               </div> 
              
+              
               )
             })
           }

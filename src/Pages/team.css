@@ -7,7 +7,8 @@
 }
 .Team_Card a {
   text-decoration: none;
-}
+  visibility: hidden;}
+  
 .Team_Card {
     position: relative;
     max-width: 200px;
@@ -65,7 +66,9 @@ z-index: -1;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+
 .Team_Card:hover {
   border-radius: 10px;
   transition: all ease-in-out 0.5s;
@@ -89,6 +92,10 @@ z-index: -1;
   background-color: #212529;
   color: white;
   border-radius: 50%;
+}
+.Team_Card:hover a{
+  display: inline-block;
+  visibility: visible;
 }
 
 .Team_Header{

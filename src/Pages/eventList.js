@@ -1,5 +1,7 @@
 import image1 from "../Images/events/session1.jpg"
-
+import image2 from "../Images/events/Flutter forward.jpeg"
+import image3 from "../Images/events/Info.png"
+import image4 from "../Images/events/Compose camp.png"
 const eventList = [{
     
     img:image1,
@@ -18,7 +20,7 @@ const eventList = [{
     link :"https://gdsc.community.dev/events/details/developer-student-clubs-pimpri-chinchwad-college-of-engineering-and-research-pune-presents-gdsc-wow-pune/"
   },
   {
-    img:image1,
+    img:image2,
     title:"Flutter Forward",
     date : "March 11-12 2023",
     time:"10:30 AM IST",
@@ -26,13 +28,14 @@ const eventList = [{
     link :"https://gdsc.community.dev/events/details/developer-student-clubs-pimpri-chinchwad-college-of-engineering-and-research-pune-presents-flutter-forward-extended-day-2/"
   },
   {
-    img:image1,
+    img:image3,
     title:"GDSC PCCOER 2.0 Info Session",
     date : "23 Feb 2023",
     time:"3:00 PM IST",
     text :"Warm Welcome to all our young wizards in the tech world of GDSC PCCOER🧙🏼‍♀️ We will be starting with the introduction to all your senior wizards who have been working relentlessly to run this club and its super exciting events, also walk you through the pathways leading to technology on 21st of Feb 3pm to 5pm. Join us in Seminar Hall to know more about the tech magic we create in Google Developer Student Club.",
     link :"https://gdsc.community.dev/events/details/developer-student-clubs-pimpri-chinchwad-college-of-engineering-and-research-pune-presents-gdsc-pccoer-20-info-session/"
   },
+  
   
 ]
 

@@ -19,10 +19,10 @@ const TeamCards = ({ teamList }) => {
               <p>{item.des}</p>
               <div className="Team_Social">
                 <a href={item.linkedin}>
-                  <i className="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-linkedin"></i>
                 </a>
                 <a href={item.github}>
-                  <i className="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-github"></i>
                 </a>
               </div>
             </div>

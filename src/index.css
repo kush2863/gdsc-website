@@ -5,10 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.center-div {
-    width: min(72rem,96%);
-    margin: 0 auto;
-}
+
 .center-content{
     display: flex;
     align-items: center;
