@@ -30,8 +30,8 @@
     grid-template-rows: repeat(6, 200px);
   }
   .Gallery_Container .v-block {
-    grid-row: span 6;
-    display: none;
+    grid-row: span 2;
+    grid-column: span 2;
   }
 
   .Gallery_Container .v-small-block {
