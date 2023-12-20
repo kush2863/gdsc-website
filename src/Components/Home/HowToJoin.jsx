@@ -1,52 +1,55 @@
-import React from 'react'
-import "./howtojoin.css"
+import React from "react";
+import "./howtojoin.css";
 const HowToJoin = () => {
   return (
-<section>
+    <section>
       <div className="How_To_Join center-div">
         <div className="center-content How_To_Join_Upper">
           <h2>How do I join GDSC ?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-            officia aliquam nobis, vel accusantium labore hic harum, quia quos
-            iusto temporibus animi? Aliquam adipisci dolorum hic asperiores in
-            dicta architecto!
-          </p>
+          <p>Ready to Shine? Get Set for Our "Simple" Hiring Journey</p>
         </div>
         <div className="How_To_Join_Grid">
           <div className="How_To_Join_Card">
-            <h3><span>1</span> Fill the form</h3>
+            <h3>
+              <span>1</span> Create Your Resume
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              dolores quas labore fugit nisi assumenda rerum repellendus iste
-              soluta nesciunt sit recusandae nostrum velit, quibusdam dolore
-              perspiciatis fugiat, esse necessitatibus!
+              Embark on a journey of self-discovery! Crafting your resume is
+              more than just coding; it’s an exploration of your coding prowess,
+              design finesse, and those hidden talents. You could be the
+              Photoshop wizard we've been searching for !
             </p>
           </div>
 
           <div className="How_To_Join_Card">
-            <h3><span>2</span> Give the interview</h3>
+            <h3>
+              <span>2</span> Fill The Form
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              dolores quas labore fugit nisi assumenda rerum repellendus iste
-              soluta nesciunt sit recusandae nostrum velit, quibusdam dolore
-              perspiciatis fugiat, esse necessitatibus!
+              Time is ticking! Picture our team as a thriving ecosystem where
+              every role – coding, designing, marketing, or content creation –
+              plays a vital part. Filling the form is your express ticket to
+              this exclusive experience. Don't miss out on your chance to join
+              the heartbeat of our dynamic community.
             </p>
           </div>
 
           <div className="How_To_Join_Card">
-            <h3><span>3</span>Contribute and Learn</h3>
+            <h3>
+              <span>3</span>Give The Interview
+            </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-              dolores quas labore fugit nisi assumenda rerum repellendus iste
-              soluta nesciunt sit recusandae nostrum velit, quibusdam dolore
-              perspiciatis fugiat, esse necessitatibus!
+              Lights, camera, showcase! The interview is not just about
+              flaunting your coding finesse, it's your moment in the spotlight.
+              it’s your opportunity to shine, boast, and exhibit your unique
+              blend of talents. Because here, coding and creativity coexist
+              beautifully. Are you ready to make your mark?
             </p>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HowToJoin
+export default HowToJoin;
