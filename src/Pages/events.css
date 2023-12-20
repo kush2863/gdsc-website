@@ -1,39 +1,36 @@
-
-
 .Events_Warpper {
-    border-top: 1px solid #f1f1f1;
-    background-color: white;
-    padding: 3rem 0px;
+  border-top: 1px solid #f1f1f1;
+  background-color: white;
+  padding: 3rem 0px;
 }
-.title{
-    font-weight: 900;
-    font-style: oblique;
+.title {
+  font-weight: 900;
+  font-style: oblique;
 }
-.Session_btn{
-    display: block;
-    margin: 1rem auto;
-    width: 80%;
-   
+.Session_btn {
+  display: block;
+  margin: 1rem auto;
+  width: 80%;
 }
-a{
-    text-decoration: none;
-}
-
-.event-bg{
-    background: url("../Images/bg/team.png") 50%/ cover no-repeat;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 0%;
-}
-@media screen and (max-width :800px) {
-    .Session_btn{
-       padding: 0.5rem 1rem;
-    }
+a {
+  text-decoration: none;
 }
 
-.card-front{
-    z-index: 2;
+.event-bg {
+  background: url("../Images/bg/team.png") 50% / cover no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0%;
+}
+@media screen and (max-width: 800px) {
+  .Session_btn {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.card-front {
+  z-index: 2;
 }
 .front,
 .back {
@@ -48,22 +45,16 @@ a{
   backface-visibility: hidden;
 }
 
-
-.card-back{
-    display: none;
-    color: white;
-    z-index: 1;
-  
-}
-.Session_Cards:hover .Session_Card{
-    transform: rotateY(180deg);
-    transition: transform 0.5s;
-   
+.card-back {
+  display: none;
+  color: white;
+  z-index: 1;
 }
 
 .card.active .card-back {
-    display: flex; /* Show the back when the card is active */
-  }
-  
-  .card.active .card-front {
-    display: none;}
+  display: flex; /* Show the back when the card is active */
+}
+
+.card.active .card-front {
+  display: none;
+}

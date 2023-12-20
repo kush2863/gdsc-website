@@ -2,9 +2,8 @@ import React from "react";
 import image1 from "../Images/events/session1.jpg";
 import "./events.css";
 import eventList from "./eventList";
-import { useNavigate } from "react-router-dom";
+import Eventcard from "../Components/Common/Eventcard";
 const Events = () => {
-  const navigate = useNavigate();
   return (
     <section class="Events event-bg">
       <div class="Page-Header center-content">
@@ -20,24 +19,12 @@ const Events = () => {
           <div class="Session_Cards">
             {eventList.map((item, index) => {
               return (
-                <div class="Session_Card" key={index}>
-                  <img src={image1} alt="session1" />
-                  <div className="card-front">
-                    <p class="Title">{item.title}</p>
-                    <p class="Date-Time">{item.date}</p>
-                    <p class="Date-Time">{item.time}</p>
-                  </div>
-                  <div className="card-back">
-                    <p class="Card-text">{item.text}</p>
-
-                    <button
-                      class="btn-1 Session_btn"
-                      onClick={() => navigate(item.link)}
-                    >
-                      Register Now
-                    </button>
-                  </div>
-                </div>
+                <Eventcard
+                  item={item}
+                  index={index}
+                  image={image1}
+                  key={index}
+                />
               );
             })}
           </div>
