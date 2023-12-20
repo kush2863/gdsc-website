@@ -23,7 +23,7 @@ const Gallery = () => {
           <img src={image2} alt="" />
         </div>
         <div className="v-small-block">
-          <img src={image3} />
+          <img src={image3} alt="" />
         </div>
         <div>
           <img src={image4} alt="" />
