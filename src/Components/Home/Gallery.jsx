@@ -15,7 +15,7 @@ const Gallery = () => {
         <div className="mob-block order-image">
           <img src={image1} alt="" />
         </div>
-        <div className="v-block" style={{ order: "1" }}>
+        <div className="v-block mobv-block">
           <img src={image6} alt="" />
         </div>
 

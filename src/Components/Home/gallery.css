@@ -43,4 +43,7 @@
   .order-image {
     order: 6;
   }
+  .mobv-block {
+    order: 1;
+  }
 }
