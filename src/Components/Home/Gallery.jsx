@@ -4,7 +4,7 @@ import image1 from "../../Images/group/image1.jpg";
 import image2 from "../../Images/group/image2.jpg";
 import image3 from "../../Images/group/image3.jpg";
 import image4 from "../../Images/group/image4.jpg";
-import image5 from "../../Images/group/image5.jpg";
+// import image5 from "../../Images/group/image5.jpg";
 import image6 from "../../Images/group/image6.jpg";
 import image7 from "../../Images/group/image7.jpg";
 
