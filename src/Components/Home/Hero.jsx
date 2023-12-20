@@ -16,11 +16,10 @@ const Hero = () => {
 
       <div>
         <h2>
-          Talent wins games, but teamwork and intelligence win championships.
+        Bridging Technology and Teamwork for a Brighter Tomorrow
         </h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
-          delectus, molestiae distinctio quam aut minima dignissimos nequeunt.
+        GDSCxPCCOER - Empowering Tomorrow’s Innovators. Explore Workshops, Hackathons, and Mentorship Opportunities. Where Code Meets Community, and Skills Blossom into Solutions
         </p>
         <button className="btn-1">Join Us</button>
       </div>

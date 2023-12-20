@@ -10,17 +10,27 @@ const WhyToJoin = () => {
       </div>
       <div>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ea
-          provident aperiam laboriosam sunt consequatur et molestiae tempora,
-          nulla esse, laborum quidem iste minima placeat cupiditate culpa.
-          Eligendi, adipisci nihil.
+        <b>Skill Amplification:</b>
+Unleash your coding potential with hands-on workshops and hackathons, turning
+theory into tangible skills.
         </p>
         <br />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam ea
-          provident aperiam laboriosam sunt consequatur et molestiae tempora,
-          nulla esse, laborum quidem iste minima placeat cupiditate culpa.
-          Eligendi, adipisci nihil.
+       <b>Innovation Hub:</b> 
+Join a dynamic community of like-minded individuals, where ideas flourish, and
+collaboration sparks innovation.
+        </p>
+        <br />
+        <p>
+        <b>Expert Mentorship:</b>
+Learn from seasoned mentors who guide you through challenges, providing valuable
+insights for your coding journey.
+        </p>
+        <br />
+        <p>
+      <b>Career Catalyst:</b>  
+Elevate your profile, connect with industry professionals, and boost your career prospects through networking opportunities.
+
         </p>
       </div>
     </div>

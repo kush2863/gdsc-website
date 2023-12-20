@@ -1,8 +1,8 @@
 import React from 'react'
-import image1 from "../Images/events/session1.jpg"
+
 import "./events.css"
 import eventList from "./eventList"
-import image2 from "../Images/events/Flutter forward.jpeg"
+
 const Events = () => {
   return (
     <section class="Events event-bg">
@@ -33,7 +33,12 @@ const Events = () => {
                     {item.text}
                   </p>
                  
-                  <button class="btn-1 Session_btn"><a href='{item.link}'></a>Register Now</button>
+                  <button class="btn-1 Session_btn">
+  <a href={item.link} target="_blank" rel="noopener noreferrer">
+    Register Now
+  </a>
+</button>
+
                   </div>
               </div> 
              

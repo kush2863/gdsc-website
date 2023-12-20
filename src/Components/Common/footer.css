@@ -6,3 +6,11 @@
     border-top: solid #333 2px ;
     padding: 3rem;
 }
+i{
+    cursor: pointer;
+    transition: all 0.7s ease-out;
+}
+i:hover{
+    transform: scale(1.3);
+    
+}

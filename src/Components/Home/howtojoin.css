@@ -43,6 +43,13 @@
     margin-top: 1rem;
     margin-left: 2.5rem;
 }
+h3{
+    letter-spacing: 2px;
+   
+}
+p{
+    letter-spacing: 1px;
+}
 
 @media screen and (max-width: 600px) {
     .How_To_Join_Grid{
