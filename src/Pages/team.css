@@ -64,7 +64,7 @@
 }
 .Team_Card:hover {
   border-radius: 10px;
-  transition: all ease-in-out 0.5s;
+  transition: all ease 2s;
   /* background-color: #ea4335; */
 }
 .Team_Card img {

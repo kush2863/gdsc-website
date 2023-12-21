@@ -26,7 +26,7 @@ export default function Eventcard({ item, index, image }) {
                 color: "white",
                 borderRadius: "5px",
               }}
-              href="http://google.com"
+              href={item.link}
               target="_blank"
               rel="noopener noreferrer"
             >
