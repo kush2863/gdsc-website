@@ -29,4 +29,10 @@ export const Images={
     Vedant: require('../Team/GDSC_team/Vedant.jpg'),
     Vishal: require('../Team/GDSC_team/Vishal.JPG'),
     Yash: require('../Team/GDSC_team/Yash.png'),
+    Purva:require("../Team/GDSC_team/Purva.jpg"),
+    Piyush:require("../Team/GDSC_team/piyush.jpeg"),
+    Shre:require("../Team/GDSC_team/Shre.jpeg"),
+    Jay:require("../Team/GDSC_team/Jay.jpeg"),
+    Ashwin:require("../Team/GDSC_team/Ashwin.jpeg"),
+    Yash:require("../Team/GDSC_team/Yash.jpeg"),
 }

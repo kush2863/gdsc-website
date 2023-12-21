@@ -9,7 +9,7 @@ export const Leads=[{
     color: "#ea4335",
     },
     {
-    img: "", 
+    img: Images.Yash, 
     name:"Yash Yadwadkar",
     des:"Co-Lead",
     linkedin:"https://www.linkedin.com/in/yash-yadwadkar",
@@ -20,7 +20,7 @@ export const Leads=[{
     
     export const CoreTeamList = [
       {
-        img: "",
+        img: Images.Ashwin,
         name: "Ashwin Lavate",
         des: "Technical Head",
         linkedin: "https://www.linkedin.com/in/ashwin-lavate-a5a74b22b",
@@ -46,7 +46,7 @@ export const Leads=[{
       color:"#F9BC15"
       
     },{
-      img:"",
+      img:Images.Piyush,
       name:"Piyush Bhone ",
       des :"Marketing Head",
       linkedin :"https://www.linkedin.com/in/piyush-bhone",
@@ -55,7 +55,7 @@ export const Leads=[{
     
     },
     {
-      img: "https://avatars.githubusercontent.com/u/58720128?v=4",
+      img: Images.Purva,
       name: "Purva Parab",
       des: "Editorial",
       linkedin: "https://www.linkedin.com/in/purva-parab-657a7a236",
@@ -83,7 +83,7 @@ export const Leads=[{
       color:"#34A853",
     },
     {
-      img:"",
+      img:Images.Jay,
       name:"Jay Firke",
       des:" Flutter Facilitator",
       linkedin:"/",
@@ -91,7 +91,7 @@ export const Leads=[{
       color:"#F9BC15",
     },
     {
-      img:"",
+      img:Images.Ashwin,
       name:"Ashwin Lavate",
       des:"Competitive Programming Facilitator",
       linkedin:"https://www.linkedin.com/in/ashwin-lavate-a5a74b22b",
@@ -125,7 +125,7 @@ export const Leads=[{
     
     
     {
-      img:"",
+      img:Images.Shre,
       name:"Shreeram Shanmugasundaram",
       des:"Full Stack Development Facilitator",
       linkedin:"https://in.linkedin.com/in/shreeram-shanmugasundaram",
