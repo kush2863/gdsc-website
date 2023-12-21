@@ -1,6 +1,9 @@
 import React from "react";
 import { Suspense } from "react";
-const loading = () => <>loading</>;
+
+const loading = () => {
+  return <div className="Team_Card_Loader"></div>;
+};
 const TeamCards = ({ teamList }) => {
   return (
     <section className="center-div Team">
@@ -21,10 +24,10 @@ const TeamCards = ({ teamList }) => {
                 <h3>{item.name}</h3>
                 <p>{item.des}</p>
                 <div className="Team_Social">
-                  <a href={item.linkedin}>
+                  <a href={item.github}>
                     <i className="fa-brands fa-github"></i>
                   </a>
-                  <a href={item.github}>
+                  <a href={item.linkedin}>
                     <i className="fa-brands fa-linkedin"></i>
                   </a>
                 </div>

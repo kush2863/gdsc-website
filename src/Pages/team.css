@@ -9,14 +9,13 @@
   text-decoration: none;
 }
 .Team_Card {
-    position: relative;
-    max-width: 200px;
-    margin: 0.5rem auto;
+  position: relative;
+  max-width: 200px;
+  margin: 0.5rem auto;
   overflow: hidden;
   border-radius: 10px;
-
 }
-.SlideUp_Div{
+.SlideUp_Div {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -24,21 +23,18 @@
   top: 100%;
   transition: all ease-in-out 0.2s;
   border-radius: 10px;
-
-
 }
-.Team_Card:hover .SlideUp_Div{
+.Team_Card:hover .SlideUp_Div {
   top: 0;
-z-index: -1;
+  z-index: -1;
 }
 .Team_Card img {
-    display: block;
+  display: block;
   border-radius: 50%;
   width: 100%;
   border: solid #ea4335 5px;
   object-position: center;
   transition: all ease-in-out 0.2s;
-  
 }
 .Team_Card h3 {
   margin-top: 1rem;
@@ -71,6 +67,12 @@ z-index: -1;
   transition: all ease-in-out 0.5s;
   /* background-color: #ea4335; */
 }
+.Team_Card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
 .Team_Card:hover img {
   border-radius: 0%;
   border: 0px solid #fff;
@@ -83,7 +85,6 @@ z-index: -1;
 }
 .Team_Card:hover i {
   color: white;
-
 }
 .Team_Card i:hover {
   background-color: #212529;
@@ -91,13 +92,22 @@ z-index: -1;
   border-radius: 50%;
 }
 
-.Team_Header{
-    padding: 2rem ;
+.Team_Header {
+  padding: 2rem;
 }
-
+.Team_card_loader {
+  width: 200px;
+  height: 200x;
+  background-color: red;
+}
 @media screen and (max-width: 800px) {
-  .Team{
+  .Team {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .Team_Card img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+  }
 }
