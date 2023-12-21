@@ -1,35 +1,37 @@
-.Why_Join_Contianer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 5rem;
-    margin-top: 2rem;
-    height: 30vh;
-    text-align: left;
-    color: #3c4043;
-
+.Why_Join_Contianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 2rem;
+  height: 30vh;
+  text-align: left;
+  color: #3c4043;
 }
 
-.Why_Join_Question{
-    width: 50%;
-    letter-spacing: 1px;
-    font-size: 20px;
-    color: #202020;
-    font-weight: 500;
-    text-align: right;
+.Why_Join_Question {
+  width: 50%;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #202020;
+  font-weight: 500;
+  text-align: right;
 }
 
-
+.Why_Join_Contianer ul li {
+  padding: 0.2rem 0;
+}
 
 @media screen and (max-width: 600px) {
-    .Why_Join_Contianer{
-        padding: 2rem 1rem;
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
-        height: 100%;}
-    .Why_Join_Question{
-        text-align: center;
-        width: 100%;
-    }
+  .Why_Join_Contianer {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    height: 100%;
+  }
+  .Why_Join_Question {
+    text-align: center;
+    width: 100%;
+  }
 }

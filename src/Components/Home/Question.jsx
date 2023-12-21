@@ -8,6 +8,7 @@ const questionList = [
   },
   {
     title: "How can GDSC help with internships and placements?",
+
     text: "GDSC provides a platform for skill development, networking, and real-world project experience. We host industry events, invite guest speakers, and offer career guidance to support your professional journey.",
   },
   {
@@ -17,6 +18,7 @@ const questionList = [
   {
     title:"GDSC is All About Serious Tech Stuff",
     text:" While we're serious about technology, GDSC is also a hub for creativity, fun, and collaboration. It's not all serious tech jargon – expect workshops with a sprinkle of humor and projects that embrace creativity."
+
 
   },
   {
@@ -29,13 +31,12 @@ const Question = () => {
     <section className="Questions center-content">
       <h2>Frequently Asked Questions</h2>
 
-      {questionList.map((item,index) => {
+      {questionList.map((item, index) => {
         return (
-            <div  key = {index}>
+          <div key={index}>
             <h3>{item.title}</h3>
             <p>{item.text}</p>
-            </div>
-          
+          </div>
         );
       })}
     </section>

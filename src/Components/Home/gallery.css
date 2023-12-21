@@ -1,25 +1,49 @@
-.Gallery_Container img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;  
+.Gallery_Container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .Gallery_Container {
-    overflow: hidden;
-    display: grid;
-    gap: 0.5rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 200px);
-    margin-bottom: 3rem;
+  overflow: hidden;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 200px);
+  margin-bottom: 3rem;
 }
 
 .Gallery_Container > div {
-    border-radius: 10px;
-    overflow: hidden;
+  border-radius: 10px;
+  overflow: hidden;
 }
-.Gallery_Container .v-block{
-    grid-row: span 3;
+.Gallery_Container .v-block {
+  grid-row: span 3;
 }
 
-.Gallery_Container .v-small-block{
+.Gallery_Container .v-small-block {
+  grid-row: span 2;
+}
+
+@media screen and (max-width: 800px) {
+  .Gallery_Container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 200px);
+  }
+  .Gallery_Container .v-block {
     grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .Gallery_Container .v-small-block {
+    grid-row: span 2;
+  }
+  .Gallery_Container .mob-block {
+    grid-column: span 2;
+  }
+  .order-image {
+    order: 6;
+  }
+  .mobv-block {
+    order: 1;
+  }
 }

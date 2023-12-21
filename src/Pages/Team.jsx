@@ -6,6 +6,7 @@ import { Leads, CoreTeamList,Facilitators,TeaMembers } from "../TeamDetails";
 
 
 
+
 const Team = () => {
   return (
     <div>

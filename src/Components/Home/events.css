@@ -1,48 +1,19 @@
-.Session h2{
-    margin-top: 3rem;
-    font-size: 35px;
-    color: #141718;
-    margin-bottom: 3rem;
+.Session h2 {
+  margin-top: 3rem;
+  font-size: 35px;
+  color: #141718;
+  margin-bottom: 3rem;
 }
 
-.Session_Cards{
-    margin-bottom: 6rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
-}
-.Session_Card{
-    overflow: hidden;
-    border-radius: 6px;
-    background-color: #fdfdfd;
-    padding-bottom: 1rem;
-    transition: scale ease-in-out 0.2s;
-    box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #fff;
-    margin-top: 1rem;
-}
-
-.Session_Card:hover{
-    scale: 1.1;
-    border: 2px solid #5f6368;
-}
-.Session_Card img{
-    width: 100%;
-}
-
-.Date-Time{
-    font-size: 14px;
-    color: #5f6368;
-    padding: 0.5rem;
-}
-.Card-text{
-    font-size: 16px;
-    padding: 0.5rem;
-    color: #3c4043;
-
-    font-weight: 500;
+.Session_Cards {
+  margin-bottom: 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 600px) {
-    .Session_Cards{
-        grid-template-columns: 1fr 1fr;}
+  .Session_Cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
