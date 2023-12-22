@@ -11,7 +11,6 @@ const Footer = () => {
             <Link to = "https://www.instagram.com/gdscpccoer/ " className="icon-link"  target='blank'> <i className="fa-brands fa-instagram"></i></Link>
             <Link to="https://github.com/shreeramshanmugasundaram/gdsc-website" className="icon-link"  target='blank'> <i className="fa-brands fa-github"></i></Link>
             <Link to=" https://www.youtube.com/@googledscpccoer6296 " className="icon-link" target='blank' > <i className="fa-brands fa-youtube"></i></Link>
-            <Link to="mailto:pccoer.ravet@gmail.com?subject=Write Your Message" className="icon-link" target='blank' > <i className="fa-solid fa-envelope" ></i></Link>
           </div>
     </footer>
   )
