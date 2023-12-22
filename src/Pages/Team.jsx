@@ -16,11 +16,7 @@ const Team = () => {
       <header class="center-content center-div Team_Header">
         <h1>Our Team</h1>
         <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eius
-          ipsum autem cum aut, perferendis, eos ratione voluptatibus officiis ut
-          consectetu
-        </p>
+     
       </header>
       <LineTitle title="Leads" />
       <TeamCards teamList={Leads} />
