@@ -19,7 +19,7 @@ const Hero = () => {
             Hackathons, and Mentorship Opportunities. Where Code Meets
             Community, and Skills Blossom into Solutions
           </p>
-          <button className="btn-1">Join Us</button>
+          <button className="btn-1"><a href="https://gdsc.community.dev/pimpri-chinchwad-college-of-engineering-and-research-pune/#">Join Us</a></button>
         </div>
       </div>
       <div className="dot-deco"></div>
